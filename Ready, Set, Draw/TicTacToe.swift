@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+@IBDesignable class Tictactoe: UIView {
+    override func draw(_ rect: CGRect) {
+        let bezier = UIBezierPath()
+        let size = self.frame.size
+        
+    }
+    
+}
