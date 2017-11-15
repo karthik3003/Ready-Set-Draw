@@ -29,9 +29,10 @@ import UIKit
         
 //        bezier.move(to:CGPoint(x:0.0,y:0.0))
         bezier.move(to:CGPoint(x:size.width/2, y:size.height/2))
-        bezier.addLine(to: CGPoint(x:size.width/1.5, y:size.height/2))
+        var x = bezier.addLine(to: CGPoint(x:size.width/2,y:size.height/2.5))
         bezier.move(to:CGPoint(x:size.width/2, y:size.height/2))
-        bezier.addLine(to: CGPoint(x:size.width/2,y:size.height/4))
+        var y = bezier.addLine(to: CGPoint(x:size.width/2,y:size.height/4))
+        
         
 //        UIColor.cyan.setStroke()
 //        

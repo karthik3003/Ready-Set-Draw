@@ -14,6 +14,7 @@
 		CC90BC4F1FBBCB6E00F96336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC90BC4E1FBBCB6E00F96336 /* Assets.xcassets */; };
 		CC90BC521FBBCB6E00F96336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC90BC501FBBCB6E00F96336 /* LaunchScreen.storyboard */; };
 		CC90BC5A1FBBCDBE00F96336 /* clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90BC591FBBCDBE00F96336 /* clock.swift */; };
+		CCD4E6F51FBC07B000A171A3 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD4E6F41FBC07B000A171A3 /* TicTacToe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CC90BC511FBBCB6E00F96336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC90BC531FBBCB6E00F96336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC90BC591FBBCDBE00F96336 /* clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clock.swift; sourceTree = "<group>"; };
+		CCD4E6F41FBC07B000A171A3 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CC90BC491FBBCB6E00F96336 /* SecondViewController.swift */,
 				CC90BC4B1FBBCB6E00F96336 /* Main.storyboard */,
 				CC90BC591FBBCDBE00F96336 /* clock.swift */,
+				CCD4E6F41FBC07B000A171A3 /* TicTacToe.swift */,
 				CC90BC4E1FBBCB6E00F96336 /* Assets.xcassets */,
 				CC90BC501FBBCB6E00F96336 /* LaunchScreen.storyboard */,
 				CC90BC531FBBCB6E00F96336 /* Info.plist */,
@@ -146,6 +149,7 @@
 				CC90BC461FBBCB6E00F96336 /* AppDelegate.swift in Sources */,
 				CC90BC5A1FBBCDBE00F96336 /* clock.swift in Sources */,
 				CC90BC481FBBCB6E00F96336 /* FirstViewController.swift in Sources */,
+				CCD4E6F51FBC07B000A171A3 /* TicTacToe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
