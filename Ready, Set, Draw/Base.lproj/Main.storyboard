@@ -17,13 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4rw-Yi-AtR" customClass="Tictactoe" customModule="Ready__Set__Draw" customModuleProvider="target">
-                                <rect key="frame" x="53" y="56" width="269" height="223"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4rw-Yi-AtR" customClass="TicTacToe" customModule="Ready__Set__Draw" customModuleProvider="target">
+                                <rect key="frame" x="25" y="36" width="326" height="274"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83738668757596313" green="1" blue="0.4684280641687969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Db0-hz-UYU">
+                                <rect key="frame" x="170" y="380" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="play:" destination="9pv-A4-QxB" eventType="touchUpInside" id="GFj-A1-Ypm"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter text here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZkZ-UG-gmg">
-                                <rect key="frame" x="53" y="318" width="269" height="30"/>
+                                <rect key="frame" x="41" y="342" width="269" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
@@ -34,10 +42,60 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="TicTacToe" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="enterPattern" destination="ZkZ-UG-gmg" id="7vU-Jl-ys1"/>
+                        <outlet property="ticTacToeView" destination="4rw-Yi-AtR" id="5IT-lg-hIf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Mondrain-->
+        <scene sceneID="5rg-mB-1cX">
+            <objects>
+                <viewController id="Fre-Xf-0rz" customClass="MondrainViewController" customModule="Ready__Set__Draw" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UA0-ni-iUG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ew-4s-wcK" customClass="Mondrain" customModule="Ready__Set__Draw" customModuleProvider="target">
+                                <rect key="frame" x="16" y="47" width="343" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.90366312518579084" blue="0.45679103362206719" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sqR-us-8Mo">
+                                <rect key="frame" x="79" y="357" width="216" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="numOfRectangles:" destination="90O-so-ldv" eventType="editingDidEnd" id="9yl-UR-F6s"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpq-xF-dUK">
+                                <rect key="frame" x="169" y="404" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="Done:" destination="Fre-Xf-0rz" eventType="touchUpInside" id="cBO-dJ-pwn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="hAl-KY-GO1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mondrain" id="WfK-Qc-FsY"/>
+                    <connections>
+                        <outlet property="MondrainView" destination="6ew-4s-wcK" id="syO-73-Y3L"/>
+                        <outlet property="numOfRectangles" destination="sqR-us-8Mo" id="BFj-Tu-pfb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iB7-ZS-753" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="90O-so-ldv" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-66.400000000000006" y="719.19040479760122"/>
         </scene>
         <!--Clock-->
         <scene sceneID="wg7-f3-ORb">
@@ -74,6 +132,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="Fre-Xf-0rz" kind="relationship" relationship="viewControllers" id="Ub0-Lw-d4d"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>

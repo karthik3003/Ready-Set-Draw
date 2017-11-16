@@ -15,6 +15,8 @@
 		CC90BC521FBBCB6E00F96336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC90BC501FBBCB6E00F96336 /* LaunchScreen.storyboard */; };
 		CC90BC5A1FBBCDBE00F96336 /* clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90BC591FBBCDBE00F96336 /* clock.swift */; };
 		CCD4E6F51FBC07B000A171A3 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD4E6F41FBC07B000A171A3 /* TicTacToe.swift */; };
+		CCEE60DD1FBD4F9F00D235EF /* MondrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE60DC1FBD4F9F00D235EF /* MondrainViewController.swift */; };
+		CCEE60DF1FBD500000D235EF /* Mondrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE60DE1FBD500000D235EF /* Mondrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CC90BC531FBBCB6E00F96336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC90BC591FBBCDBE00F96336 /* clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clock.swift; sourceTree = "<group>"; };
 		CCD4E6F41FBC07B000A171A3 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
+		CCEE60DC1FBD4F9F00D235EF /* MondrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondrainViewController.swift; sourceTree = "<group>"; };
+		CCEE60DE1FBD500000D235EF /* Mondrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mondrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				CC90BC471FBBCB6E00F96336 /* FirstViewController.swift */,
 				CC90BC491FBBCB6E00F96336 /* SecondViewController.swift */,
 				CC90BC4B1FBBCB6E00F96336 /* Main.storyboard */,
+				CCEE60DC1FBD4F9F00D235EF /* MondrainViewController.swift */,
+				CCEE60DE1FBD500000D235EF /* Mondrain.swift */,
 				CC90BC591FBBCDBE00F96336 /* clock.swift */,
 				CCD4E6F41FBC07B000A171A3 /* TicTacToe.swift */,
 				CC90BC4E1FBBCB6E00F96336 /* Assets.xcassets */,
@@ -147,9 +153,11 @@
 			files = (
 				CC90BC4A1FBBCB6E00F96336 /* SecondViewController.swift in Sources */,
 				CC90BC461FBBCB6E00F96336 /* AppDelegate.swift in Sources */,
+				CCEE60DD1FBD4F9F00D235EF /* MondrainViewController.swift in Sources */,
 				CC90BC5A1FBBCDBE00F96336 /* clock.swift in Sources */,
 				CC90BC481FBBCB6E00F96336 /* FirstViewController.swift in Sources */,
 				CCD4E6F51FBC07B000A171A3 /* TicTacToe.swift in Sources */,
+				CCEE60DF1FBD500000D235EF /* Mondrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
